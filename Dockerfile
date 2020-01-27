@@ -32,7 +32,7 @@ RUN npm install
 ENV PORT "8080"
 
 COPY --from=msoap/shell2http /app/shell2http /shell2http
-COPY firestore-export.sh operations-list.sh index.js /
+COPY firestore-export.sh operations-list.sh get-collection-list.js /
 
 ENTRYPOINT ["/shell2http","-export-all-vars"]
 CMD ["/backup","/firestore-export.sh","/list","/operations-list.sh"]
