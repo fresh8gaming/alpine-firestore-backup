@@ -1,0 +1,20 @@
+{
+  "name": "alpine-firestore-backup",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fresh8gaming/alpine-firestore-backup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fresh8gaming/alpine-firestore-backup/issues"
+  },
+  "homepage": "https://github.com/fresh8gaming/alpine-firestore-backup#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^3.4.0"
+  }
+}
