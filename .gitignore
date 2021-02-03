@@ -2,3 +2,6 @@
 
 collection-list.txt
 node_modules
+
+.licenses
+.licensed.yml
